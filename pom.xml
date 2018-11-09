@@ -57,10 +57,6 @@
 	
   <dependencies>
 
-	    <!--43 CVE-2018-1000531 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-1000531 -->
-	    <!-- https://mvnrepository.com/artifact/com.inversoft/prime-jwt -->
-	    <!-- WORKING -->
-
 		<dependency>
 		  <groupId>org.owasp</groupId>
 		  <artifactId>dependency-check-maven</artifactId>
@@ -69,10 +65,10 @@
 		</dependency>
 
 		<dependency>
-		    <groupId>tomcat</groupId>
-		    <artifactId>naming-factory-dbcp</artifactId>
-		    <version>5.5.23</version>
-		</dependency> 
+			<groupId>ch.acra</groupId>
+			<artifactId>acra</artifactId>
+			<version>4.8.0</version>
+		</dependency>
 
   </dependencies>
 </project>
